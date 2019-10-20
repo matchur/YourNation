@@ -1,0 +1,442 @@
+[
+    {
+        "Id": 1,
+        "Tema": "Industrial",
+        "Peso": "",
+        "Texto": "Grandes Industrias estão pedindo revogação de alguns decretos ambientais.",
+        "Direita": {
+            "Industria": 10,
+            "Agricultura": 2,
+            "Saude": -10,
+            "Educacao": 0,
+            "Ecologia": -20,
+            "Dinheiro": 0.1
+        },
+        "Esquerda": {
+            "Industria": -15,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": -0.05
+        }
+    },
+    {
+        "Id": 2,
+        "Tema": "Industrial",
+        "Peso": "",
+        "Texto": "Empresa se torna monopólio no ramo de tecnologia. Deseja tomar atitude?",
+        "Direita": {
+            "Industria": 10,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": -0.05
+        },
+        "Esquerda": {
+            "Industria": -10,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": 0
+        }
+    },
+    {
+        "Id": 3,
+        "Tema": "Industrial",
+        "Peso": "",
+        "Texto": "Setor industrial está pedindo redução na carga tributária",
+        "Direita": {
+            "Industria": 5,
+            "Agricultura": 0,
+            "Saude": 5,
+            "Educacao": 5,
+            "Ecologia": 0,
+            "Dinheiro": -0.1
+        },
+        "Esquerda": {
+            "Industria": -5,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": 0.1
+        }
+    },
+    {
+        "Id": 4,
+        "Tema": "Industrial",
+        "Peso": "",
+        "Texto": "Empresas pedem melhorias na infraestrutura",
+        "Direita": {
+            "Industria": 5,
+            "Agricultura": 2,
+            "Saude": 5,
+            "Educacao": 5,
+            "Ecologia": 5,
+            "Dinheiro": -0.15
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": 0.15
+        }
+    },
+    {
+        "Id": 5,
+        "Tema": "Agricultura",
+        "Peso": "",
+        "Texto": "Agricultores pedem liberação de agrotóxicos nocivos à saúde.",
+        "Direita": {
+            "Industria": 5,
+            "Agricultura": 10,
+            "Saude": -10,
+            "Educacao": 0,
+            "Ecologia": -10,
+            "Dinheiro": 0.2
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": -5,
+            "Saude": 10,
+            "Educacao": 5,
+            "Ecologia": 2,
+            "Dinheiro": 0.05
+        }
+    },
+    {
+        "Id": 6,
+        "Tema": "Agricultura",
+        "Peso": "",
+        "Texto": "Foi proposta uma diminuição dos subsídios agrícolas para aumentar a verba arrecadada. O que acha da ideia?",
+        "Direita": {
+            "Industria": 0,
+            "Agricultura": -10,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": 5,
+            "Dinheiro": 0.2
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 5,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": -5,
+            "Dinheiro": -0.1
+        }
+    },
+    {
+        "Id": 7,
+        "Tema": "Agricultura",
+        "Peso": "",
+        "Texto": "Agricultores estão pedindo a diminuição dos impostos para importação de maquinário.",
+        "Direita": {
+            "Industria": 0,
+            "Agricultura": 10,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": -5,
+            "Dinheiro": -0.1
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": 5,
+            "Dinheiro": 0.05
+        }
+    },
+    {
+        "Id": 8,
+        "Tema": "Agricultura",
+        "Peso": "",
+        "Texto": "Agricultores estão reclamando que a poluição das indústrias está afetando suas plantações, deseja intervir?",
+        "Direita": {
+            "Industria": -5,
+            "Agricultura": 5,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": 0
+        },
+        "Esquerda": {
+            "Industria": 5,
+            "Agricultura": -10,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": 0.08
+        }
+    },
+    {
+        "Id": 9,
+        "Tema": "Saude",
+        "Peso": "",
+        "Texto": "Os hospitais não estão conseguindo atender a demanda da população. Deseja investir em hospitais?",
+        "Direita": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 10,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": -0.15
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": -10,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": 0.05
+        }
+    },
+    {
+        "Id": 10,
+        "Tema": "Saude",
+        "Peso": "",
+        "Texto": "Pessoas estão pedindo mais remédios no setor público. Você concorda?",
+        "Direita": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 15,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": -0.1
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": -10,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": 0
+        }
+    },
+    {
+        "Id": 11,
+        "Tema": "Saude",
+        "Peso": "",
+        "Texto": "Cientistas suspeitam que alguns tipos de agrotóxicos estão causando doenças irreversíveis, deseja intervir?",
+        "Direita": {
+            "Industria": 0,
+            "Agricultura": -5,
+            "Saude": 10,
+            "Educacao": 0,
+            "Ecologia": 5,
+            "Dinheiro": -0.1
+        },
+        "Esquerda": {
+            "Industria": 5,
+            "Agricultura": 5,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": -5,
+            "Dinheiro": 0.05
+        }
+    },
+    {
+        "Id": 12,
+        "Tema": "Saude",
+        "Peso": "",
+        "Texto": "Pessoas estão sofrendo de doenças pulmonares devido a poluição, deseja tomar alguma medida?",
+        "Direita": {
+            "Industria": 5,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": 5,
+            "Ecologia": 5,
+            "Dinheiro": -0.2
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": -10,
+            "Educacao": 0,
+            "Ecologia": -10,
+            "Dinheiro": 0
+        }
+    },
+    {
+        "Id": 13,
+        "Tema": "Educacao",
+        "Peso": "",
+        "Texto": "O ensino público está necessitando de novos materias escolares!",
+        "Direita": {
+            "Industria": 2,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": 10,
+            "Ecologia": 0,
+            "Dinheiro": -0.1
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": -10,
+            "Ecologia": 0,
+            "Dinheiro": 0.1
+        }
+    },
+    {
+        "Id": 14,
+        "Tema": "Educacao",
+        "Peso": "",
+        "Texto": "Os niveis de evasão escolar estão aumentando exponencialmente. Deseja realizar campanhas de conscientização nas escolas?",
+        "Direita": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": 8,
+            "Ecologia": 0,
+            "Dinheiro": -0.05
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": -5,
+            "Ecologia": 0,
+            "Dinheiro": 0
+        }
+    },
+    {
+        "Id": 15,
+        "Tema": "Educacao",
+        "Peso": "",
+        "Texto": "Surgiu uma nova oportunidade de aumentar a verba arrecadada realizando cortes mínimos na educação. Deseja levar a ideia adiante?",
+        "Direita": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": -5,
+            "Ecologia": 0,
+            "Dinheiro": 0.1
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": 0,
+            "Ecologia": 0,
+            "Dinheiro": -0.05
+        }
+    },
+    {
+        "Id": 16,
+        "Tema": "Educacao",
+        "Peso": "",
+        "Texto": "Professores da rede pública planejam entrar em greve se não houver um aumento no salário. Deseja conceder o aumento?",
+        "Direita": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": 5,
+            "Ecologia": 0,
+            "Dinheiro": 0.1
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 0,
+            "Educacao": -8,
+            "Ecologia": 0,
+            "Dinheiro": 0.1
+        }
+    },
+    {
+        "Id": 17,
+        "Tema": "Ecologia",
+        "Peso": "",
+        "Texto": "ONGs estão precisando de mais recursos. Deseja disponibilizar editais?",
+        "Direita": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 5,
+            "Educacao": 0,
+            "Ecologia": 5,
+            "Dinheiro": -0.1
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": -5,
+            "Educacao": 0,
+            "Ecologia": -5,
+            "Dinheiro": 0.1
+        }
+    },
+    {
+        "Id": 18,
+        "Tema": "Ecologia",
+        "Peso": "",
+        "Texto": "Muitas denúncias de exploração ambiental foram feitas. Deseja intervir?",
+        "Direita": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 5,
+            "Educacao": 0,
+            "Ecologia": 10,
+            "Dinheiro": -0.1
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": -8,
+            "Educacao": 0,
+            "Ecologia": -8,
+            "Dinheiro": 0.08
+        }
+    },
+    {
+        "Id": 19,
+        "Tema": "Ecologia",
+        "Peso": "",
+        "Texto": "Ambientalistas estão pedindo aumento de leis ambientais.",
+        "Direita": {
+            "Industria": -5,
+            "Agricultura": 0,
+            "Saude": 5,
+            "Educacao": 0,
+            "Ecologia": 10,
+            "Dinheiro": 0
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": -5,
+            "Educacao": 0,
+            "Ecologia": -10,
+            "Dinheiro": 0
+        }
+    },
+    {
+        "Id": 20,
+        "Tema": "Ecologia",
+        "Peso": "",
+        "Texto": "Rios estão ficando cada vez mais poluídos, deseja melhorar o sistema de saneamento básico?",
+        "Direita": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": 10,
+            "Educacao": 0,
+            "Ecologia": 5,
+            "Dinheiro": -0.1
+        },
+        "Esquerda": {
+            "Industria": 0,
+            "Agricultura": 0,
+            "Saude": -8,
+            "Educacao": 0,
+            "Ecologia": -8,
+            "Dinheiro": 0.1
+        }
+    }
+]
